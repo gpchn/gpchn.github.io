@@ -1,39 +1,176 @@
 <!DOCTYPE html>
-<title>gpchn 域名发布页</title>
-<meta charset="utf-8">
-<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
+<html>
+  <head>
+    <title>gpchn 域名发布页</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 
-| **域名** | **描述** | **是否可用** | **是否被墙** | **到期时间** | **维护状态** |
-| ------- | -------- | ---------- | ----------- | ---------- | ----------- |
-| **GitHub 域名** |
-| [github.com/gpchn](https://github.com/gpchn) | GitHub 个人主页 | 是 | 半墙 | 永久 | 官方页面无需维护 |
-| [gpchn.github.io](https://gpchn.github.io) | GitHub Pages 主页，我的域名发布站点 | 是 | 否 | 永久 | 仍在维护 |
-| [gpchn.github.io/games](https://gpchn.github.io/games) | H5 在线小游戏 | 是 | 否 | 永久 | 停止维护 |
-| **WordPress 域名** |
-| [gpchn.code.blog](https://gpchn.code.blog) | 我的第一个 WordPress 博客 | 是 | 半墙 | 永久 | 停止维护 |
-| [gpchn.wordpress.com](https://gpchn.wordpress.com) | 也是 WordPress 博客 | 是 | 否 | 永久 | 停止维护 |
-| [legendcave.wordpress.com](https://legendcave.wordpress.com) | 用于 Legend Cave 项目的博客（项目无疾而终，博客也没有完成） | 是 | 否 | 永久 | 停止维护 |
-| [homo.photo.blog](https://homo.photo.blog) | 突发奇想注册的一个银梦玩梗网站（注册完就放着了，空的，啥也没有） | 是 | 应该没有 | 永久 | 停止维护 |
-| [class23forever.wordpress.com](https://class23forever.wordpress.com) | 提前注册的毕业纪念网站（同上，大概用不上了） | 是 | 否 | 永久 | 停止维护 |
-| **neocities.org 域名** |
-| [gpchn.neocities.org](https://gpchn.neocities.org) | 个人站点，没怎么用过就闲置了 | 是 | 否 | 永久 | 停止维护 |
-| **Netlify 域名** |
-| [gpchn-pub.netlify.app](https://gpchn-pub.netlify.app) | gpchn.github.io 复刻 | 是 | 半墙 | 永久 | 托管站点无需维护 |
-| [gpchn.netlify.app](https://gpchn.netlify.app) | gpchn.link 复刻 | 是 | 半墙 | 永久 | 托管站点无需维护 |
-| [gpchn-dev.netlify.app](https://gpchn-dev.netlify.app) | gpchn-dev.link 复刻 | 是 | 半墙 | 永久 | 托管站点无需维护 |
-| **Vercel 域名** |
-| [gpchn-pub.vercel.app](https://gpchn-pub.vercel.app) | gpchn.github.io 复刻 | 是 | 半墙 | 永久 | 托管站点无需维护 |
-| **CloudFlare Pages 域名** |
-| [gpchn-pub.pages.dev](https://gpchn-pub.pages.dev) | gpchn.github.io 复刻 | 是 | 否 | 永久 | 托管站点无需维护 |
-| [gpchn.pages.dev](https://gpchn.pages.dev) | gpchn.link 复刻 | 是 | 否 | 永久 | 托管站点无需维护 |
-| [gpchn-dev.pages.dev](https://gpchn-dev.pages.dev) | 复刻 | 是 | 否 | 永久 | 托管站点无需维护 |
-| **Python Anywhere 域名** |
-| [gpchn.pythonanywhere.com](https://gpchn.pythonanywhere.com) | 托管的 Flask 应用（空的） | 是 | 否 | 永久，但需要每三个月登录延期 | 停止维护 |
-| **Railway 域名** |
-| [gpchn-pub.up.railway.app](https://gpchn.up.railway.app) | gpchn.github.io 复刻 | 是 | 否 | 永久 | 托管站点无需维护 |
-| **GitHub 上的免费二级域名** |
-| [gpchn.is-a-good.dev](https://gpchn.is-a-good.dev) | 博客站复刻（CNAME gpchn.pages.dev） | 是 | 否 | 永久 | 托管站点无需维护 |
-| [gpchn.is-amaz.ing](https://gpchn.is-amaz.ing) | 博客站复刻（CNAME gpchn.pages.dev）| 是 | 否 | 永久 | 托管站点无需维护 |
-| **自购域名** |
-| [252123.xyz](https://252123.xyz) | 自建服务器用 | 是 | 否 | 2034/04/01 | 是 |
-| [gpchn.252123.xyz](https://gpchn.252123.xyz) | 博客站 | 是 | 否 | 2034/04/01 | 托管站点无需维护 |
+    <style type="text/css">
+      table {
+        width: 100%;
+        height: 100%;
+        font-family: 'Courier New', Courier, monospace;
+        color: #333333;
+        border-width: 1px;
+        border-color: #a9c6c9;
+        border-collapse: collapse;
+      }
+      table th {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #a9c6c9;
+      }
+      table td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #a9c6c9;
+      }
+      .oddrowcolor {
+        background-color: #d4e3e5;
+      }
+      .evenrowcolor {
+        background-color: #c3dde0;
+      }
+    </style>
+
+    <script type="text/javascript">
+      function altRows() {
+          var table = document.getElementById("mytable");
+          var rows = table.getElementsByTagName("tr");
+
+          for (i = 0; i < rows.length; i++) {
+            if (i % 2 == 0) {
+              rows[i].className = "evenrowcolor";
+            } else {
+              rows[i].className = "oddrowcolor";
+            }
+          }
+      }
+
+      window.onload = function () {
+        altRows();
+      };
+    </script>
+  </head>
+
+  <body>
+    <table id="mytable">
+      <!-- 表头 -->
+      <tr>
+        <th>域名</th>
+        <th>用途</th>
+        <th>备注</th>
+      </tr>
+
+      <tr>
+        <td><a href="https://github.com/gpchn">github.com/gpchn</a></td>
+        <td>GitHub 个人主页</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gitee.com/gpchn">gitee.com/gpchn</a></td>
+        <td>Gitee 个人主页</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn.github.io">gpchn.github.io</a></td>
+        <td>域名发布页（本站）</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn.github.io/games">gpchn.github.io/games</a></td>
+        <td>H5 小游戏</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn.code.blog">gpchn.code.blog</a></td>
+        <td>第一个 WordPress 博客</td>
+      </tr>
+      
+      <tr>
+        <td><a href="https://gpchn.wordpress.com">gpchn.wordpress.com</a></td>
+        <td>也是 WordPress 博客</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://legendcave.wordpress.com">legendcave.wordpress.com</a></td>
+        <td>用于 Legend Cave 项目的博客（项目无疾而终，博客也没有完成）</td>
+      </tr>
+    
+      <tr>
+        <td><a href="https://homo.photo.blog">homo.photo.blog</a></td>
+        <td>突发奇想注册的一个玩梗网站（注册完就放着了，空的，啥也没有）</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://class23forever.wordpress.com">class23forever.wordpress.com</a></td>
+        <td>没用上的毕业纪念网站（同上，是空的）</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn.neocities.org">gpchn.neocities.org</a></td>
+        <td>我最早的一个域名，已经闲置了</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn-pub.netlify.app">gpchn-pub.netlify.app</a></td>
+        <td>发布站复刻</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn.netlify.app">gpchn.netlify.app</a></td>
+        <td>主博客站</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn-pub.vercel.app">gpchn-pub.vercel.app</a></td>
+        <td>主博客站</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn-pub.vercel.app">gpchn-pub.vercel.app</a></td>
+        <td>发布站复刻</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn-pub.pages.dev">gpchn-pub.pages.dev</a></td>
+        <td>发布站复刻</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn.pages.dev">gpchn.pages.dev</a></td>
+        <td>主博客站</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn.pythonanywhere.com">gpchn.pythonanywhere.com</a></td>
+        <td>PythonAnywhere 托管的 Flask 应用，没啥内容</td>
+        <td>需要每三个月更新一次续时间，如果打不开就是我忘更新了</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn.is-a-good.dev">gpchn.is-a-good.dev</a></td>
+        <td>主博客站</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn.is-amaz.ing">gpchn.is-amaz.ing</a></td>
+        <td>主博客站</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://252123.xyz">252123.xyz</a></td>
+        <td>自建服务器用</td>
+        <td>2034/04/01 到期</td>
+      </tr>
+
+      <tr>
+        <td><a href="https://gpchn.252123.xyz">gpchn.252123.xyz</a></td>
+        <td>主博客站</td>
+        <td>2034/04/01 到期</td>
+      </tr>
+    </table>
+  </body>
+</html>
